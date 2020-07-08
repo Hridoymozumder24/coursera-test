@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Element with class Slector</title>
+</head>
+<style>
+	
+ /* all with class="highlight" */
+.highlight{
+background-color: green;
+font-style:italic; 
+
+ }
+
+/* all p elements with class="highlight" */
+.mainpoint{
+
+font-style:bold;
+
+}
+
+/*all elements with class 'highlight' as well as with class
+'mainpoint' */
+.highlight.mainpoint{
+	color:red;
+	background-color:black;
+}
+
+</style>
+<body>
+
+<h1 class="highlight"> Element with class slector </h1>
+ <p>Combining Selectors is a very powerful technique that allows you to more precisely target dumb elements. In this lecture we're going to take a look at some of the most common ways of combining CSS selectors The first one is with element with class selector. As you can see here we have a P element followed immediately without any spaces by a dot big which is a A class selector. And what this expresses is that I want to target every p element that has an attribute class equal to big.
+  </p>
+<p class="mainpoint highlight">this is p with class='class highlight'</p>
+<div class="mainpoint highlight">This is the mainpoint of the entire article.</div>
+</body>
+</html>
